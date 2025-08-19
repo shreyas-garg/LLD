@@ -8,10 +8,5 @@ public class Driver {
         for (Book b : bookService.getBooks()) {
             b.printDetails();
         }
-        // Example usage:
-        // bookService.printAllAuthors();
-        // bookService.getBooksByAuthor("Author Name");
-        // bookService.getBooksByRating(4.5);
-        // bookService.getBooksAndPricesByAuthor("Author Name");
     }
 }
